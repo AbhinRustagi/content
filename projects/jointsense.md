@@ -12,5 +12,4 @@ slug: jointsense
 thumbnail: projects/assets/project-slug/thumbnail.png
 published: false
 canonical_url: https://www.abhin.dev/projects/jointsense
-web_url: -
 ---

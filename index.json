@@ -6,11 +6,34 @@
     "path": "projects/llm-judge.md",
     "canonical_url": "https://www.abhin.dev/projects/llm-judge",
     "description": "An evaluation platform that uses LLMs to score question-answer pairs against custom, domain-specific criteria.",
-    "tags": ["FastAPI", "Next.js", "LLM", "Evaluation", "Python", "TypeScript"],
+    "tags": [
+      "FastAPI",
+      "Next.js",
+      "LLM",
+      "Evaluation",
+      "Python",
+      "TypeScript"
+    ],
     "thumbnail": "projects/assets/llm-judge/thumbnail.png",
     "published": true,
     "github_url": "https://github.com/AbhinRustagi/llm-judge",
     "web_url": "https://llm-judge-152003550665.australia-southeast1.run.app/"
+  },
+  {
+    "title": "\\@react-volatile",
+    "date": "2026-01-01",
+    "slug": "react-volatile",
+    "path": "projects/react-volatile.md",
+    "canonical_url": "https://www.abhin.dev/projects/react-volatile",
+    "description": "Chaos Engineering Library for React Apps",
+    "tags": [
+      "React",
+      "React Hooks"
+    ],
+    "thumbnail": "projects/assets/project-slug/thumbnail.png",
+    "published": true,
+    "github_url": null,
+    "web_url": "https://abhinrustagi.github.io/react-volatile"
   },
   {
     "title": "Eats",
@@ -19,11 +42,52 @@
     "path": "projects/eats.md",
     "canonical_url": "https://www.abhin.dev/projects/eats",
     "description": "A brief description of the project (1-2 sentences)",
-    "tags": ["tag1", "tag2"],
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
     "thumbnail": "projects/assets/project-slug/thumbnail.png",
     "published": false,
     "github_url": null,
     "web_url": "https://eats.abhin.dev/"
+  },
+  {
+    "title": "JointSense",
+    "date": "2025-03-01",
+    "slug": "jointsense",
+    "path": "projects/jointsense.md",
+    "canonical_url": "https://www.abhin.dev/projects/jointsense",
+    "description": "A brief description of the project (1-2 sentences)",
+    "tags": [
+      "React Native",
+      "Bluetooth Low Energy",
+      "Firebase",
+      "Typescript",
+      "Google Cloud Platform"
+    ],
+    "thumbnail": "projects/assets/project-slug/thumbnail.png",
+    "published": false,
+    "github_url": null,
+    "web_url": null
+  },
+  {
+    "title": "Pixelink",
+    "date": "2025-01-01",
+    "slug": "pixelink",
+    "path": "projects/pixelink.md",
+    "canonical_url": "https://www.abhin.dev/projects/pixelink",
+    "description": "A minimal, distraction-free markdown editor with rich text editing, document organization, and MCP server integration.",
+    "tags": [
+      "next.js",
+      "react",
+      "firebase",
+      "tiptap",
+      "typescript"
+    ],
+    "thumbnail": "projects/assets/pixelink/thumbnail.png",
+    "published": true,
+    "github_url": null,
+    "web_url": "https://pixelink.abhin.dev/"
   },
   {
     "title": "Pub Sub CLI",
@@ -32,7 +96,10 @@
     "path": "projects/pub-sub.md",
     "canonical_url": "https://www.abhin.dev/projects/pub-sub-cli",
     "description": "A brief description of the project (1-2 sentences)",
-    "tags": ["tag1", "tag2"],
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
     "thumbnail": "projects/assets/project-slug/thumbnail.png",
     "published": false,
     "github_url": null,
@@ -45,7 +112,10 @@
     "path": "projects/photos.md",
     "canonical_url": "https://www.abhin.dev/projects/photos",
     "description": "A brief description of the project (1-2 sentences)",
-    "tags": ["tag1", "tag2"],
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
     "thumbnail": "projects/assets/project-slug/thumbnail.png",
     "published": false,
     "github_url": null,
@@ -58,7 +128,10 @@
     "path": "projects/splendor-ai.md",
     "canonical_url": "https://www.abhin.dev/projects/splendor",
     "description": "A brief description of the project (1-2 sentences)",
-    "tags": ["tag1", "tag2"],
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
     "thumbnail": "projects/assets/project-slug/thumbnail.png",
     "published": false,
     "github_url": null,
@@ -71,7 +144,10 @@
     "path": "projects/pacman.md",
     "canonical_url": "https://www.abhin.dev/projects/pacman",
     "description": "A brief description of the project (1-2 sentences)",
-    "tags": ["tag1", "tag2"],
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
     "thumbnail": "projects/assets/project-slug/thumbnail.png",
     "published": false,
     "github_url": null,
