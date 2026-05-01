@@ -1,0 +1,40 @@
+name: Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "projects/**"
+      - "structures/**"
+      - ".github/workflows/index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: abhinrustagi/repo-db-indexer@v0.1.0
+        with:
+          config: |
+            name: projects
+            types:
+              project:
+                content: projects/*.md
+                format: markdown-frontmatter
+                schema: structures/project.schema.json
+                projection: structures/project.index.json
+                key: slug
+                sort:
+                  field: date
+                  order: desc
+            llms: false
+            update_readme: true
+            rules:
+              unknown-fields: warn
+              projection-missing: warn
+          commit: "true"
