@@ -4,11 +4,10 @@ on:
   push:
     branches:
       - main
-      - try-repo-db-indexer
     paths:
-      - 'projects/**'
-      - 'structures/**'
-      - '.github/workflows/index.yml'
+      - "projects/**"
+      - "structures/**"
+      - ".github/workflows/index.yml"
   workflow_dispatch:
 
 permissions:
@@ -38,4 +37,4 @@ jobs:
             rules:
               unknown-fields: warn
               projection-missing: warn
-          commit: 'true'
+          commit: "true"
