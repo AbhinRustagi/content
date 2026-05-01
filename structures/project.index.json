@@ -2,6 +2,7 @@
   "title",
   "date",
   "slug",
+  "path",
   "canonical_url",
   "description",
   "tags",
