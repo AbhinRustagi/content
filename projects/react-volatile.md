@@ -1,7 +1,7 @@
 ---
 title: "@react-volatile"
 date: 2026-01-01
-description: A chaos engineering library that injects controlled failures into React hooks and components during development, helping developers build resilient applications.
+description: Chaos engineering for React; inject controlled failures into hooks, components, and async logic.
 tags:
   - React
   - TypeScript
@@ -52,6 +52,7 @@ The monorepo contains three packages:
 **@react-volatile/core** — The chaos engine, seeded randomizer, event logger, scheduler, and type definitions. No React dependency. This could be adapted to other frameworks.
 
 **@react-volatile/react** — React bindings built on top of core:
+
 - `VolatileProvider` wraps the app and manages the engine lifecycle
 - `useVolatileState`, `useVolatileEffect`, `useVolatileReducer`, `useVolatileMemo`, `useVolatileCallback` — drop-in replacements for their React counterparts, with optional per-hook configuration
 - `useVolatileAsync` — an async wrapper that returns `{data, error, loading, execute}` with chaos applied to the async operation

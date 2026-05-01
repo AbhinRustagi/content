@@ -9,7 +9,7 @@ A collection of project writeups and case studies. These are used as a source fo
   > An evaluation platform that uses LLMs to score question-answer pairs against custom, domain-specific criteria.
 
 - **@react-volatile** [[Markdown]](projects/react-volatile.md)[[Website]](https://www.abhin.dev/projects/react-volatile) - January 2026
-  > A chaos engineering library that injects controlled failures into React hooks and components during development, helping developers build resilient applications.
+  > Chaos engineering for React; inject controlled failures into hooks, components, and async logic.
 
 - **Pixelink** [[Markdown]](projects/pixelink.md)[[Website]](https://www.abhin.dev/projects/pixelink) - January 2025
   > A minimal, distraction-free markdown editor with rich text editing, document organization, and MCP server integration.

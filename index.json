@@ -43,7 +43,7 @@
     "slug": "react-volatile",
     "path": "projects/react-volatile.md",
     "canonical_url": "https://www.abhin.dev/projects/react-volatile",
-    "description": "A chaos engineering library that injects controlled failures into React hooks and components during development, helping developers build resilient applications.",
+    "description": "Chaos engineering for React; inject controlled failures into hooks, components, and async logic.",
     "tags": [
       "React",
       "TypeScript",
