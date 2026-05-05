@@ -1,16 +1,16 @@
-name: Index and Publish
+name: Index and Publish Blog
 
 on:
   push:
     branches:
       - main
     paths:
-      - "posts/**"
-      - "structures/**"
-      - "main.py"
-      - "lib/**"
-      - "requirements.txt"
-      - ".github/workflows/index-and-publish.yml"
+      - "blog/posts/**"
+      - "blog/structures/**"
+      - "blog/main.py"
+      - "blog/lib/**"
+      - "blog/requirements.txt"
+      - ".github/workflows/index-and-publish-blog.yml"
   workflow_dispatch:
 
 permissions:

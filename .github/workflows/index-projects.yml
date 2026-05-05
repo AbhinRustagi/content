@@ -1,4 +1,4 @@
-name: Index
+name: Index Projects
 
 on:
   push:
@@ -6,8 +6,7 @@ on:
       - main
     paths:
       - "projects/**"
-      - "structures/**"
-      - ".github/workflows/index.yml"
+      - ".github/workflows/index-projects.yml"
   workflow_dispatch:
 
 permissions:
