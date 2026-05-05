@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "title": "How I think ChatGPT & Claude might be derailing the next batch of academics",
+      "date": "2024-11-15T00:00:00.000Z",
+      "slug": "chatgpt-claude-derailed-semester",
+      "description": "Watching classmates breeze through assignments with ChatGPT while learning nothing is honestly kind of depressing. There's a difference between using AI as a tutor versus letting it do all your thinking for you.",
+      "canonical_url": "https://www.abhin.dev/blog/chatgpt-claude-derailed-semester",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "LLMs"
+      ],
+      "path": "posts/2024/11/chatgpt-claude-derailed-semester.md",
+      "reading_time": 2,
+      "published": true
+    },
+    {
+      "title": "Insights as a 22yo Software Engineer",
+      "date": "2023-09-26T02:00:00.000Z",
+      "slug": "insights-as-a-22yo-software-engineer",
+      "description": "A young developer's honest take on navigating the tech world, from overcoming imposter syndrome to building real products at a startup.",
+      "canonical_url": "https://www.abhin.dev/blog/insights-as-a-22yo-software-engineer",
+      "tags": [
+        "React",
+        "Javascript",
+        "Django",
+        "Startups",
+        "Software Development"
+      ],
+      "path": "posts/2023/09/insights-as-a-22yo-software-engineer.md",
+      "reading_time": 5,
+      "medium": "https://medium.com/design-bootcamp/insights-as-a-22yo-software-engineer-d3b8a79c585b",
+      "published": true
+    },
+    {
+      "title": "Asking the right questions — an underrated soft skill",
+      "date": "2023-04-30T01:00:00.000Z",
+      "slug": "asking-the-right-questions",
+      "description": "Turns out for getting better answers it's not about being smarter, it's about asking the right questions in the first place. A quick reflection on how this underrated skill can save you tons of time and frustration, whether you're debugging code or just trying to get stuff done.",
+      "canonical_url": "https://www.abhin.dev/blog/asking-the-right-questions",
+      "tags": [
+        "Product Development",
+        "Startup"
+      ],
+      "path": "posts/2023/04/asking-the-right-questions.md",
+      "reading_time": 2,
+      "medium": "https://medium.com/design-bootcamp/asking-the-right-questions-an-underrated-soft-skill-62bc5ca80013",
+      "published": true
+    },
+    {
+      "title": "Develop a Custom useTimer Hook in React",
+      "date": "2022-01-23T13:00:00.000Z",
+      "slug": "custom-usetimer-hook-in-react",
+      "description": "I built a clean useTimer hook that handles countdown timers properly with start/stop controls and automatic cleanup.",
+      "canonical_url": "https://www.abhin.dev/blog/custom-usetimer-hook-in-react",
+      "tags": [
+        "React",
+        "Frontend Development"
+      ],
+      "path": "posts/2022/01/custom-usetimer-hook-in-react.md",
+      "reading_time": 2,
+      "medium": "https://javascript.plainenglish.io/developing-a-custom-usetimer-hook-in-react-18585ea3d24",
+      "published": true
+    },
+    {
+      "title": "Why is reading the documentation so important?",
+      "date": "2021-11-17T03:31:00.000Z",
+      "slug": "reading-the-documentation-important",
+      "description": "This post explores why RTFM (Reading the F*cking Manual) might be the best advice you'll get as a developer.",
+      "canonical_url": "https://www.abhin.dev/blog/reading-the-documentation-important",
+      "tags": [
+        "Software Development",
+        "Product"
+      ],
+      "path": "posts/2021/11/reading-the-documentation-important.md",
+      "reading_time": 4,
+      "medium": "https://javascript.plainenglish.io/reading-the-documentation-important-5cf50bab0c9f",
+      "published": true
+    }
+  ]
+}

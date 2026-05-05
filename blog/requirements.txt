@@ -1,0 +1,10 @@
+certifi==2024.8.30
+charset-normalizer==3.3.2
+cloudinary
+idna==3.10
+Markdown==3.7
+python-slugify==8.0.4
+PyYAML==6.0.2
+requests==2.32.3
+text-unidecode==1.3
+urllib3==2.2.3

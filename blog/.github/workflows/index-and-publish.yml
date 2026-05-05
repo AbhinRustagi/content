@@ -1,0 +1,74 @@
+name: Index and Publish
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "posts/**"
+      - "structures/**"
+      - "main.py"
+      - "lib/**"
+      - "requirements.txt"
+      - ".github/workflows/index-and-publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    environment: Posts Deployment on PR Merge
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Publish posts
+        run: python main.py
+        env:
+          MEDIUM_USER_ID: ${{ secrets.MEDIUM_USER_ID }}
+          MEDIUM_TOKEN: ${{ secrets.MEDIUM_TOKEN }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+
+      - name: Refresh index
+        uses: abhinrustagi/repo-db-indexer@v0
+        with:
+          config: |
+            name: blog
+            types:
+              posts:
+                content: posts/**/*.md
+                format: markdown-frontmatter
+                schema: structures/post.schema.json
+                projection: structures/post.index.json
+                key: slug
+                sort:
+                  field: date
+                  order: desc
+            llms: false
+            update_readme: true
+            rules:
+              unknown-fields: warn
+              projection-missing: warn
+          commit: "false"
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refresh index and publish new posts"
