@@ -19,6 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: abhinrustagi/repo-db-indexer@v0
         with:
+          working-directory: projects
           config: |
             name: projects
             types:
