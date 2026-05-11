@@ -1,0 +1,40 @@
+name: Index Projects
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "oss/**"
+      - ".github/workflows/index-oss.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: abhinrustagi/repo-db-indexer@v0
+        with:
+          working-directory: oss
+          config: |
+            name: oss
+            types:
+              oss:
+                content: contributions/*.md
+                format: markdown-frontmatter
+                schema: structures/contribution.schema.json
+                projection: structures/contribution.index.json
+                key: slug
+                sort:
+                  field: date
+                  order: desc
+            llms: false
+            update_readme: true
+            rules:
+              unknown-fields: warn
+              projection-missing: warn
+          commit: "true"
