@@ -11,6 +11,10 @@ versioned, indexed, and deployed together.
   [blog/README.md](blog/README.md) for the post index.
 - [projects/](projects/) — project writeups and case studies. See
   [projects/README.md](projects/README.md) for the project index.
+- [oss/](oss/) — open source contributions. Content lives in
+  [oss/contributions/](oss/contributions/); schema and projection config
+  live in [oss/structures/](oss/structures/). See
+  [oss/README.md](oss/README.md) for the index.
 - [books/](books/) — reserved for future book notes; currently empty.
 
 Each content area keeps its own indexed `README.md` (updated automatically
@@ -25,7 +29,10 @@ its own `index.json` projection consumed by the website.
 - **Index Projects** ([`.github/workflows/index-projects.yml`](.github/workflows/index-projects.yml))
   — runs on changes under `projects/`. Refreshes [projects/README.md](projects/README.md)
   + [projects/index.json](projects/index.json) and commits the result.
+- **Index OSS** ([`.github/workflows/index-oss.yml`](.github/workflows/index-oss.yml))
+  — runs on changes under `oss/`. Refreshes [oss/README.md](oss/README.md)
+  + [oss/index.json](oss/index.json) and commits the result.
 
-Both workflows scope to their content subdirectory via the indexer's
+All workflows scope to their content subdirectory via the indexer's
 `working-directory` input, so links inside the per-area READMEs remain
 relative to that area.
