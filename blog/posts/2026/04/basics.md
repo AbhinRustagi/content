@@ -13,3 +13,8 @@ tags:
 ---
 
 Content goes here
+
+### Relevant stuff I found interesting
+
+- https://codydjango.com/software-fundamentals/
+- https://dev.to/thefaisal/7-top-reasons-why-you-need-to-master-the-fundamentals-a-visual-guide-apo
