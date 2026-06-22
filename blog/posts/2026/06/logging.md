@@ -9,7 +9,7 @@ tags:
   - Observability
   - Logging
 description: What to log? When to log? Where to log? An informal handbook to write logs
-reading_time:
+reading_time: 5
 ---
 
 I reckon a lot of people have been there - what to log? when to log? where to log? (and sometimes) how to log it? In my opinion, a good stream of logs should be able to tell a simple story - a story you want to make sense, and a story where you don't want to be reading between the lines. Logging provides observability at the ground level and gives visibility into the chaos of runtime. 
