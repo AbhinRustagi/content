@@ -1,6 +1,21 @@
 {
   "posts": [
     {
+      "title": "More logs ≠ Better logs",
+      "date": "2026-06-19T00:00:00.000Z",
+      "slug": "logging",
+      "description": "What to log? When to log? Where to log? An informal handbook to write logs",
+      "canonical_url": "https://www.abhin.dev/blog/logging",
+      "tags": [
+        "Backend Development",
+        "Observability",
+        "Logging"
+      ],
+      "path": "posts/2026/06/logging.md",
+      "reading_time": 5,
+      "published": true
+    },
+    {
       "title": "How I think ChatGPT & Claude might be derailing the next batch of academics",
       "date": "2024-11-15T00:00:00.000Z",
       "slug": "chatgpt-claude-derailed-semester",
