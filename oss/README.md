@@ -6,6 +6,7 @@ A mention of Open Source Projects I've contributed to.
 
 ## oss
 
+- [contributions/beui.md](contributions/beui.md)
 - [contributions/openscreen.md](contributions/openscreen.md)
 - [contributions/openui.md](contributions/openui.md)
 
