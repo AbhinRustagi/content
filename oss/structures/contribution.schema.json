@@ -5,6 +5,7 @@
   "additionalProperties": false,
   "properties": {
     "repo_name": { "type": "string", "minLength": 1 },
-    "repo_url": { "type": "string", "format": "uri" }
+    "repo_url": { "type": "string", "format": "uri" },
+    "misc_tags": { "type": "array", "items": "string" }
   }
 }
